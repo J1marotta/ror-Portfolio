@@ -21,9 +21,7 @@
 .full-height {
   min-height: 100vh;
 }
-.no-margin {
-  margin: 0 !important;
-}
+
 .navbar-bg {
   background-color: #f7f7f7;
 }
@@ -68,8 +66,8 @@
 
 .vid-info {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10%;
+  right: 30%;
   width: 33%;
   background: rgba(0,0,0,0.3);
   color: #fff;
