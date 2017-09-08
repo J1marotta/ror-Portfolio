@@ -14,7 +14,7 @@ window.onload = function(e){
 
 // $(document).on('turbolinks:load', ready );
 // var ready = function() {
-    
+
 //  $('#pagepiling').pagepiling({
 // 		anchors: ['home', 'about', 'portfolio', 'contact'],
 // 		menu: '.the-main-navbar',

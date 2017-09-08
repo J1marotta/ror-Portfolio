@@ -5,11 +5,11 @@
 
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".main-navbar" aria-expanded="false">
 
-        <span class="sr-only"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+				<span class="sr-only"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 
 			<a class="navbar-brand" data-menuanchor="home" href="#home">
 				James Marotta
@@ -28,7 +28,7 @@
 				</li>
 				<li data-menuanchor="portfolio">
 					<a href="#portfolio">
-						<span>Portfolio</span>
+						<span>Achievements</span>
 					</a>
 				</li>
 				<li data-menuanchor="contact">
@@ -40,44 +40,55 @@
 		</div>
 	</div>
 </nav>
+
+
 <div id="pagepiling">
 
 	<!-- landing page  -->
 	<div class="container-fluid section main" id="home">
 		<div class=" text-center">
 
+			<div class="vid-info front">
+				<div class="bufferpic">
 
-				<div class="vid-info">
-					<h1>James Marotta</h1>
-					<p>{ Web Developer }
-					</p>
+				</div>
+				<p class="hidden-xs p-2">James Marotta</p>
+				<p class='hidden-xs lead'>{ Web Developer }
+				</p>
 
-					<div class="social-btns">
-						<a target="_blank" class="btn btn-xs" href="https://github.com/j1marotta" role="button">
-							Github</a>
-						<a target="_blank" class="btn btn-x" href="https://www.linkedin.com/in/james-marotta-1b1166117/" role="button">
-							Linkedin</a>
-
-					</div>
+				<div class="social-btns hidden-xs">
+					<a target="_blank" class="btn btn-xs" href="https://github.com/j1marotta" role="button">
+						Github</a>
+					<a target="_blank" class="btn btn-x" href="https://www.linkedin.com/in/james-marotta-1b1166117/" role="button">
+						Linkedin</a>
 				</div>
 
+			</div>
+			<div class="visible-xs hidden-sm hidden-md hidden-lg white front">
+				<p>James Marotta</p>
+				<p class="hidden-sm">Web Developer</p>
 
+			</div>
 		</div>
 	</div>
 
-<div class="jumbotron section pp-scrollable about full-height" id="about">
-	<div class="container clearfix">
+	<div class="jumbotron section pp-scrollable about full-height" id="about">
+		<div class="container clearfix">
 			<div class="row buffer">
 
 				<div class="col-sm-6 col-lg-6 col-xs-12 pull-left">
 
-					<p>Hi I'm James, I'm a Sydney based web developer with a focus on backend technologies. I enjoy investigating the fundamentals of how things work.</p>
+					<p>Hi I'm James, I'm a Sydney based web developer with a focus on backend technologies. I enjoy investigating how things work.</p>
 
 					<p>I've had a long interest in technology and in my spare time I enjoy
 						<s>cooking</s>
 						going out for food and sharing it with friends.</p>
-					<p>I recently did six months of training for an MMA fight, and now I'm focusing the next six on learning how to code.
+					<p>I've come from a life of hospitality, including five years working in Sydney Casino.
 					</p>
+
+					<p>My decision to move into tech came after I realised I was scouring tech news sites everyday and finally thought that maybe that's where I want to be.</p>
+
+					<p>That afternoon I started looking up several online courses and eventually took on Sydney's Coder Academy Bootcamp.</p>
 
 				</div>
 				<div class="col-sm-6 col-lg-6 col-xs-12 pull-left">
@@ -87,39 +98,79 @@
 		</div>
 	</div>
 
+	<!-- Start of portfolio page  -->
 	<div class="jumbotron section pp-scrollable portfolio full-height" id="portfolio">
 		<div class="container">
-			<div class="row">
-				<div class="col-12 buffer	">
-					<!--vertical space buffer  -->
-				</div>
-				<!-- start of portfolio projects   -->
-				<div class="col-sm-4 col-md-4">
-					<div class="card ">
-						project 1
-					</div>
+			<div class="row portcenter">
 
+				<!--vertical space buffer  -->
+				<div class="col-12 bufferport text-center	">
+					<p>
+						<p>Some of my Achievements</p>
+					</p>
 				</div>
-				<div class="col-sm-4 col-md-4">
-					<div class="card">
-						project 2
+
+				<!-- start of portfolio projects   -->
+
+				<!--Trent or not   -->
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<%=image_tag("trent.png", class: "img-responsive img-rounded", alt: "Trent or not") =%>
+						<div class="caption">
+							<p>Trent or not?</p>
+							<p>One of our early team projects was to create a terminal based ruby application.</p>
+
+							<p>Our Team and I created a game which randomly generated pixelated images of our teacher Trent.</p>
+
+							<p>This was and awesome learning experience working with randomising arrays and printing images into the terminal</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-sm-4 col-md-4">
-				<div class="card">
-					project 3
+
+				<!-- project two  -->
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<%=image_tag("amazon.jpg", class: "img-responsive img-rounded", alt: "Amazon") =%>
+						<div class="caption">
+							<p>Amazon BookStore</p>
+							<p>Another Ruby project we created as a team was to make an amazon bookstore recommendation engine.</p>
+
+							<p>I learned a lot about OOP principles and how to optimise my method structures.</p>
+						</div>
+					</div>
 				</div>
+				<!--buffer  -->
+
+				<!-- Personal Achievements  -->
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<%=image_tag("w2w-min.jpg", class: "img-responsive img-rounded", alt: "w2w") =%>
+						<div class="caption">
+							<p>I've always active and have done crossfit six years, but one my favourite personal achievements, is completing six months of intense MMA training with a program called Wimp2warrior</p>
+
+							<p>It was incredible, and really taught me how to dedicate myself to something, and with two hours of training a day and 4am starts, it also taught me a lot about time management.</p>
+
+							<p>In 2016 I was also able to visit four different countries and I'm excited to do more travel in my future maybe even as a digital nomad.
+							</p>
+
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="col-12 bufferport	"></div>
 			</div>
 		</div>
 	</div>
 
-	<!-- contact page -->
+
+		<!-- contact page -->
 	<div class="jumbotron section contact full-height" id="contact">
 		<div class="container">
 			<div class="row">
-				<div class="text-center col-12">
-					<h2>Get In touch!</h2>
+				<div class="text-center col-12 white">
+					<h2>Get in touch</h2>
 				</div>
 				<div class="col-12 text-center">
 					<a target="_blank" class="align-self-center btn btn-default" href="https://github.com/j1marotta" role="button">
@@ -134,4 +185,5 @@
 			</div>
 		</div>
 	</div>
+
 </div>
