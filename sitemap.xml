@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file is a ROR Sitemap for describing this website to the search engines. For details about the ROR format, go to www.rorweb.com.   -->
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://jamesmarottaportfolio.herokuapp.com/</title>
+  <link>https://jamesmarottaportfolio.herokuapp.com/</link>
+  <item>
+    <title>ROR Sitemap for https://jamesmarottaportfolio.herokuapp.com/</title>
+    <link>https://jamesmarottaportfolio.herokuapp.com/</link>
+    <ror:about>sitemap</ror:about>
+    <ror:type>SiteMap</ror:type>
+  </item>
+  <item>
+     <link>https://jamesmarottaportfolio.herokuapp.com/</link>
+     <ror:updatePeriod>week</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+     <link>https://jamesmarottaportfolio.herokuapp.com/assets/favicon/apple-touch-icon-e98c988398191109067c6f13b98b129973716061d40dcb8eacf5348f26ac04bb.png</link>
+     <ror:updatePeriod>week</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+     <link>https://jamesmarottaportfolio.herokuapp.com/assets/favicon/favicon-32x32-14ad71daf08206f84a0818103965e024d68d315bad3fe6be3327f1648733da1a.png</link>
+     <ror:updatePeriod>week</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+     <link>https://jamesmarottaportfolio.herokuapp.com/assets/favicon/favicon-16x16-d7c44ddc264cb75c659421bf53ebaf4d19ac2b7a7616385f7997b3055f36d211.png</link>
+     <ror:updatePeriod>week</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+     <link>https://jamesmarottaportfolio.herokuapp.com/assets/favicon/manifest-2e6e4660171ee8508cc4dba6c9168bc47ab3612a69c074f997419650dad9b255.json</link>
+     <ror:updatePeriod>week</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+     <link>https://jamesmarottaportfolio.herokuapp.com/assets/favicon/safari-pinned-tab-8aa5ba8e531573a35be45e6d9d859ec8c7317fb0e1243b457ff7448963a25826.svg</link>
+     <ror:updatePeriod>week</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+     <link>https://jamesmarottaportfolio.herokuapp.com/assets/favicon/favicon-a20e4354470107826709303de0ad2d08c51c65982c7723e092a345f03da72d2e.ico</link>
+     <ror:updatePeriod>week</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+  <item>
+     <link>https://jamesmarottaportfolio.herokuapp.com/assets/application-726d88e7b8a3f2ecf7b8c3d170fb4e5dff2b7b59b8dd6871aaae576da3e8994a.css</link>
+     <ror:updatePeriod>week</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+  </item>
+</channel>
+</rss>
